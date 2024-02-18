@@ -1,5 +1,4 @@
 <html>
-	<head></head>
 	<body>
 		<h2>Traffic Accident Dataset Description</h2>
 		<p>This dataset contains information about traffic accidents, including details about the accidents, vehicles, and casualties involved. Each row in the dataset represents a single casualty, and there may be multiple casualties associated with a single accident.</p>
@@ -91,9 +90,7 @@
 				</tr>
 			</tbody>
 		</table>
-		This dataset includes information about accidents that occurred in 2022, with a range of casualty types, ages, and severities. The data may be used for analysis of traffic accidents and development of strategies to prevent them.
-
-        <br />
-        <p>Each row in the dataset contains a record for a single casualty, with the values in the columns providing information about the casualty and the accident. For example, the first row indicates that the casualty was a 46-year-old male pedestrian who was slightly injured in an accident that occurred in 2022. The casualty was not a road maintenance worker, and the accident occurred in the E01033378 LSOA.</p>    
+		<p>This dataset includes information about accidents that occurred in 2022, with a range of casualty types, ages, and severities. The data may be used for analysis of traffic accidents and development of strategies to prevent them.</p><br />
+        <p>Each row in the dataset contains a record for a single casualty, with the values in the columns providing information about the casualty and the accident. For example, the first row indicates that the casualty was a 46-year-old male pedestrian who was slightly injured in an accident that occurred in 2022. The casualty was not a road maintenance worker, and the accident occurred in the E01033378 LSOA.</p>   
     </body>
 </html>
