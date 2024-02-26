@@ -555,6 +555,136 @@
 		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_home_area_type.png"></img>
 		<br />
 		<p>From Age of Casualty Distribution with is a left-skewed distribution, we can find out the most casualty is for 19 years old and by increasing the age, the casualty is decreasing.
-		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/age_of_casualty_distribution.png"></img>
+		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/age_of_casualty_distribution.png"></img><br />
+		<h2>Machine Learning and Neural Network</h2>
+		<p> at first, we have to normalize and make our data in a standard scale.<br />
+		<table>
+			<thead>
+				<tr>
+					<th>vehicle reference</th>
+					<th>casualty reference</th>
+					<th>casualty class</th>
+					<th>sex of casualty</th>
+					<th>age of casualty</th>
+					<th>age band of casualty</th>
+					<th>casualty severity</th>
+					<th>pedestrian location</th>
+					<th>pedestrian movement</th>
+					<th>car passenger</th>
+					<th>bus or coach passenger</th>
+					<th>pedestrian road maintenance worker</th>
+					<th>casualty type</th>
+					<th>casualty home area type</th>
+					<th>casualty imd decile</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0.495232</td>
+					<td>-0.340070</td>
+					<td>0</td>
+					<td>2</td>
+					<td>0.476632</td>
+					<td>0.695006</td>
+					<td>3</td>
+					<td>-0.364252</td>
+					<td>-0.321122</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>8</td>
+					<td>1</td>
+					<td>1.476134</td>
+				</tr>
+				<tr>
+					<td>-0.405793</td>
+					<td>-0.340070</td>
+					<td>0</td>
+					<td>1</td>
+					<td>-0.340771</td>
+					<td>-0.116991</td>
+					<td>3</td>
+					<td>-0.364252</td>
+					<td>-0.321122</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>8</td>
+					<td>1</td>
+					<td>-0.740129</td>
+				</tr>
+				<tr>
+					<td>-0.405793</td>
+					<td>-0.340070</td>
+					<td>0</td>
+					<td>2</td>
+					<td>1.089684</td>
+					<td>1.101005</td>
+					<td>3</td>
+					<td>-0.364252</td>
+					<td>-0.321122</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>8</td>
+					<td>1</td>
+					<td>1.792743</td>
+				</tr>
+				<tr>
+					<td>0.495232</td>
+					<td>1.697629</td>
+					<td>0</td>
+					<td>2</td>
+					<td>2.111437</td>
+					<td>1.913002</td>
+					<td>3</td>
+					<td>-0.364252</td>
+					<td>-0.321122</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>8</td>
+					<td>2</td>
+					<td>1.792743</td>
+				</tr>
+				<tr>
+					<td>1.396258</td>
+					<td>0.678779</td>
+					<td>0</td>
+					<td>1</td>
+					<td>1.345122</td>
+					<td>1.101005</td>
+					<td>3</td>
+					<td>-0.364252</td>
+					<td>-0.321122</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>8</td>
+					<td>3</td>
+					<td>0.842916</td>
+				</tr>
+			</tbody>
+		</table><br />
+		<p>First, we will train a Logistic Regression model using the dataset that provided and we get these result:</p><br />
+		<pre>Accuracy: 0.7978974818678184
+Precision: 0.6367573058231196
+Recall: 0.7978974818678184
+F1 Score: 0.7082777755824203</pre><br />
+	<p>Then we used K-Fold Algorithm to perform the process with 10 Fold, there is the result of this algorithm:</p>
+	<p>verage CV Score: 0.7959153748396838</p><br />
+	<p>And here is the confusion matrix of the trained Logistic Regression</p>
+	<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/Logistic_regression_confusion_matrix.png"></img><br />
+	<p>Now let's train a neural network by this data and evaluate that</p>
+	<p>here is the result of training this tensorflow model by 200 epoch:</p>
+	<pre>+-----------+--------------------+
+|  metrices |       values       |
++-----------+--------------------+
+| Precision | 0.7266392330136313 |
+|   Recall  | 0.7930079048162334 |
+|  f1_score | 0.7338754719645181 |
++-----------+--------------------+</pre><be />
+	<p>and here is the confusion matrix of the tensorflow neural network:</p>
+	<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/neural_network_confusion_matrix.png"></img>
     </body>
 </html>
