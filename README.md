@@ -542,7 +542,7 @@
 		</table><br />
 		<p>Because the "status" and "accident year" columns has just one value we can just remove them from our dataset.</p><br />
 		<p>Now let's check out the correlation between the variables of the dataset.</p>
-		![Correlation Matrix Heatmap](https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/correlation.png)
+		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/correlation.png"></img>
 		<br />
 		### Let's do some analysis on the dataset.
 		<p>as we can see here, the severity of the casualty's injuries for Male is so higher than Female.
