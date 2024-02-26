@@ -544,17 +544,17 @@
 		<p>Now let's check out the correlation between the variables of the dataset.</p>
 		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/correlation.png"></img>
 		<br />
-		### Let's do some analysis on the dataset.
+		<h2> Let's do some analysis on the dataset.</h2>
 		<p>as we can see here, the severity of the casualty's injuries for Male is so higher than Female.
-		![Correlation Matrix Heatmap](https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_gender.png)
+		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_gender.png"></img>
 		<br />
 		<p>Now, based of the relationship between casualty severity and casualty class, it's abviuse the Driver has the most injuries, after that passenger and then pedestrian.
-		![Relationship between casualty severity and casualty class](https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_casualty_class.png)
+		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_casualty_class.png"></img>
 		<br />
 		<p>The Urban Home Area Type has the most casualty severity injuries and the Semi-Urban Area Type has lower casualty severity.
-		![Relationship between casualty severity and Home Area Type](https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_home_area_type.png)
+		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/casualty_severity_by_home_area_type.png"></img>
 		<br />
 		<p>From Age of Casualty Distribution with is a left-skewed distribution, we can find out the most casualty is for 19 years old and by increasing the age, the casualty is decreasing.
-		![Age of Casualty Distribution](https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/age_of_casualty_distribution.png)
+		<img src="https://github.com/Amin1384Movahedi/Traffic-Accident-analysis/blob/main/assets/age_of_casualty_distribution.png"></img>
     </body>
 </html>
